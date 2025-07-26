@@ -40,13 +40,42 @@ Tools: Pandas, Excel, Matplotlib
 - ✅ Bar chart showing most frequent genres from the `listed_in` column.
  5️⃣ What is the distribution of movie durations?
 - ✅ Histogram showing how long most Netflix movies are (in minutes).
+- 
+- ###6# 🛒 E-commerce Sales Analysis (Python Project)
+ 📌 Project Overview
+This project analyzes a simulated E-commerce sales dataset using Python. The dataset includes customer purchases, product details, delivery performance, and ratings. The goal is to uncover business insights such as top-performing products, delivery trends, customer satisfaction, and city-wise revenue
+## 🧹 Data Cleaning
+- Filled nulls in numeric columns (`Price Each`, `Customer Rating`) with mean/median.
+- Filled missing product names with `"Unknown Product"`.
+- Converted `Order Date` to datetime.
+- Added a new column: `Sales = Quantity Ordered × Price Each`.
+ 📊 Key Analysis Performed
+ ✅ 1. Top-Selling Product Categories
+- Found categories with the highest total revenue using groupby and barplot.
+ ✅ 2. Average Delivery Time by City
+- Calculated average delivery days for each city to evaluate logistics performance.
+ ✅ 3. Top 5 Rated Products
+- Identified products with highest average customer ratings.
+ ✅ 4. City-wise Revenue
+- Found which cities brought in the most revenue.
+ ✅ 5. Correlation Analysis
+- Checked relationship between `Quantity Ordered` and `Customer Rating`.
+ 📈 Tools Used
+- **Python** (Pandas, NumPy)
+- **Matplotlib** & **Seaborn** for data visualization
+- **Jupyter Notebook** or VS Code for development
+ 📌 Sample Visuals
 
----
-
-
----
-
-## 🧰 Tools & Technologies
+- Bar charts for revenue by city and category
+- Horizontal bar plot for top-rated products
+- Line plot for monthly sales
+- Heatmap for correlation
+ 📘 Conclusion
+- Most sales came from [Top Category] and [Top City].
+- Delivery performance varied across cities.
+- Customer satisfaction was higher for [Top Products].
+- Null values were handled effectively before analysis.
+ 🧰 Tools & Technologies
 
 - Python  
 - Pandas  
@@ -56,7 +85,10 @@ Tools: Pandas, Excel, Matplotlib
 - Excel / CSV  
 - Git & GitHub  
 
----
+## 👩‍💻 Author
+**Kamaljot Kaur**  
+_Data Analyst (Beginner level, portfolio project)_  
+
 
 ## 📎 Folder Structure
 
