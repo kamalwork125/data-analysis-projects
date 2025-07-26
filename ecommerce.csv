@@ -1,0 +1,9 @@
+Order ID,Product Name,Category,Quantity Ordered,Price Each,Order Date,City,Delivery Time (Days),Customer Rating
+1001,Wireless Mouse,Electronics,2,499.0,2023-01-15,Delhi,3.0,4.5
+1002,Leather Wallet,Fashion,1,,2023-01-16,Mumbai,5.0,
+1003,Cotton T-Shirt,Fashion,3,799.0,2023-02-02,Bangalore,,4.2
+1004,LED Monitor,Electronics,1,8999.0,2023-02-05,Chennai,4.0,4.8
+1005,,Home,2,299.0,2023-02-06,Delhi,2.0,3.9
+1006,Bluetooth Speaker,Electronics,1,1599.0,2023-02-10,Kolkata,3.0,4.1
+1007,Sneakers,Fashion,1,2499.0,2023-02-14,Mumbai,,
+1008,Office Chair,Furniture,2,,2023-02-15,Bangalore,6.0,4.0
