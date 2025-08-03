@@ -83,13 +83,46 @@ This project analyzes a simulated E-commerce sales dataset using Python. The dat
 - Seaborn & Matplotlib  
 - Jupyter Notebook  
 - Excel / CSV  
-- Git & GitHub  
+- Git & GitHub
+  
+   📚 Library SQL Project
+This is a beginner-level **SQL project** that simulates a simple Library Management System. It includes tables for members, books, and issued books. The project was executed using **SQLite**.
+ 🔧 Project Structure
+ **library_project.sql** → Creates tables and inserts sample data.
+**library_project_queries.txt** → Includes 5 SQL queries with their expected output
+📄 Tables
+1. **members**: Stores member details
+2. **books**: Stores book information
+3. **issued_books**: Tracks which member issued which book and when
+ 📊 SQL Queries Performed
 
+1. Members who haven't returned books
+2. Total number of books issued by each member
+3. Book list with status (Issued/Available)
+4. Books issued between specific dates
+5. Count of unreturned books per member
+🚀 How to Run
+1. Install [SQLite](https://www.sqlite.org/download.html)
+2. Open terminal and run:
+    ```bash
+    sqlite3 library.db
+    .read library_project.sql
+    ```
+3. Run queries from `library_project_queries.txt` one by one
+ ✨ Output Preview
+Example:
+
+```sql
+SELECT m.name, COUNT(*) AS total_books_issued
+FROM issued_books ib
+JOIN members m ON ib.member_id = m.member_id
+GROUP BY m.name;
+  
 ## 👩‍💻 Author
 **Kamaljot Kaur**  
 _Data Analyst (Beginner level, portfolio project)_  
 
 
-## 📎 Folder Structure
+
 
 
