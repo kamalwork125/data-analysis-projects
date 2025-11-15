@@ -15,6 +15,8 @@ Welcome to my Data Analysis portfolio! This repository contains real-world proje
 - **Dataset:** students_data.csv  
 - **Objective:** Clean student data, calculate averages, and visualize marks by city.
 - **Tools Used:** Pandas, Seaborn, Matplotlib
+
+  
 ###3. 🛒 Customer Purchase Insights
 Dataset: Customer_Purchase_Data.xlsx
 
@@ -23,11 +25,15 @@ Objective: Analyze customer demographics, purchasing behavior & segment-wise per
 Techniques: EDA, grouping, filtering
 
 Tools: Pandas, Seaborn, Matplotlib
+
+
 ###4. 📆 Monthly Sales Performance Tracker
 Dataset: Monthly Sales Performance Tracker.xlsx
 Objective: Month-wise product category performance, revenue trends & top-selling items
 Techniques: Pivot tables, time-series visualization
 Tools: Pandas, Excel, Matplotlib
+
+
 ###5 📊 Netflix Data Analysis Project
  1️⃣ How has the number of Netflix releases changed over the years?
 - ✅ Line chart showing year-wise growth in releases.
@@ -117,7 +123,9 @@ SELECT m.name, COUNT(*) AS total_books_issued
 FROM issued_books ib
 JOIN members m ON ib.member_id = m.member_id
 GROUP BY m.name;
-🌆 City Happiness Analysis — Data Analytics Project
+
+
+ ##7🌆 City Happiness Analysis — Data Analytics Project
 
 This project analyzes how different factors like Salary, AQI, Crime Rate, and City affect the overall Happiness Score.
 You performed Cleaning → Analysis → Visualization → Machine Learning end-to-end.
