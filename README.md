@@ -107,22 +107,8 @@ This is a beginner-level **SQL project** that simulates a simple Library Managem
 3. Book list with status (Issued/Available)
 4. Books issued between specific dates
 5. Count of unreturned books per member
-🚀 How to Run
-1. Install [SQLite](https://www.sqlite.org/download.html)
-2. Open terminal and run:
-    ```bash
-    sqlite3 library.db
-    .read library_project.sql
-    ```
-3. Run queries from `library_project_queries.txt` one by one
- ✨ Output Preview
-Example:
 
-```sql
-SELECT m.name, COUNT(*) AS total_books_issued
-FROM issued_books ib
-JOIN members m ON ib.member_id = m.member_id
-GROUP BY m.name;
+
 
 
  ##7🌆 City Happiness Analysis — Data Analytics Project
